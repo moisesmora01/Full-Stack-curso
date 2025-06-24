@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(162, 248, 248);
+}
+
+.titulo2{
+    border: 2px solid black;
+    width: fit-content;
+    background-color: rgb(242, 239, 69);
+    border-radius: 12px;
+    padding: 2px;
+}
+
+.fresa img{
+    width: 120px;
+    border-radius: 15%;
+}
+
+.fresa{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 12%;
+}
+
+.mango img{
+width: 150px;
+border-radius: 15%;    
+}
+
+.mango{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 12%;
+}
+
+.fresa:hover{
+    background-color:red ;
+}
+
+.mango:hover{
+    background-color: yellow;
+}
+
+
+

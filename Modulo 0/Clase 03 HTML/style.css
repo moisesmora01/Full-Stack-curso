@@ -1,0 +1,30 @@
+.fondo{
+    background-color: rgb(170, 174, 250);
+}
+
+.mitexto{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+#titulos{
+    border: 2px solid white;
+    width: 65vw;
+    margin: auto;
+    padding: 2em;
+}
+
+img{
+    width: 150px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 12%;
+    padding: 1em;
+}
+
+.cards:hover{
+    background-color: yellow;
+}
