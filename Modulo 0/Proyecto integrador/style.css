@@ -1,15 +1,54 @@
-header{
-    background-color: rgb(208, 208, 208);
-    height: 3.5em;
+.navbar{
+    background-color: rgb(216, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
 }
 
-.barra{
-    display: flex;
-    flex-direction: row;
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3em;
 }
 
-.nav nav ul{
+.nav-links{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 1.4em;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text1{
+    font-family: sans-serif;
+    background-color: rgb(216, 215, 215);
+    padding: 1em;
+    display: flex;
+    width: fit-content;
+    border-radius: 80px;
+    margin-top: 7em;
+    margin-left: 7em;
+    font-weight: bold;
+}
+
+.text2{
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0.5em 0em 0em 2.2em;
+}
+
+.text3{
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0.2em 0em 0em 2.5em;
+    background-color: yellow;
+    width: fit-content;
+    padding: 0.3em;
+    border-radius: 80px;
 }
