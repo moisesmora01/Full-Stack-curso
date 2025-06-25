@@ -1,0 +1,47 @@
+.navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar2{
+    background-color: rgb(129, 129, 255);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.logo2{
+    font-size: 2em;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-links2{
+    display: flex;
+    gap: 1em;
+    font-size: 1.2em;
+}
+
+.nav-links2 a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(208, 208, 208);
+    height: 3.5em;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
