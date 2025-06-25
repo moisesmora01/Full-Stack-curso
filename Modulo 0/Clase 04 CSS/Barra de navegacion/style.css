@@ -45,3 +45,30 @@
     text-decoration: none;
     color: black;
 }
+
+
+.navbar3{
+    background-color: rgb(231, 163, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8em;
+    color: white;
+}
+
+.nav-links3{
+    display: flex;
+    gap: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-links3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
