@@ -112,6 +112,7 @@ main{
     width: fit-content;  
     padding: 0.3em;
     border-radius: 15px;
+    color: white;
     /*margin-left: 41em;*/
 }
 
@@ -175,4 +176,156 @@ button{
     background-color: black;
     color: white;
     font-size: 1.2em;
+}
+
+/* TERCERA PAGINA: CAJA FUERTE */
+
+.text1-3{
+    font-size: 3.1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.text2-3{
+     font-size: 1.5em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center; 
+    margin-top: 2em;
+    background-color: #5599da;
+    width: fit-content;  
+    padding: 0.3em;
+    border-radius: 15px;
+    color: white;
+}
+
+.preguntas2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+    background-color: rgb(243, 243, 243);
+   width: fit-content; 
+    border-radius: 15px;
+   padding: 3em 16em;
+}
+
+.preguntas-misma-linea{
+    display: flex;
+    gap: 1.5em;
+}
+
+.codigo-secreto{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    
+}
+
+.codigo-secreto input{
+    width: 13em;
+}
+
+.numero-intentos{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.boton-misma-linea button{
+   margin-top: -0.6em;
+}
+
+.validacion{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+
+.validacion input{
+    width: 13em;
+}
+
+.botones-validacion{
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+/* CUARTA PAGINA: MONITOREO DE ACTIVIDAD */
+
+.text1-4{
+    font-size: 3.1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.text2-4{
+     font-size: 1.3em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center; 
+    margin-top: 2em;
+    background-color: #5599da;
+    width: fit-content;  
+    padding: 0.3em;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.preguntas3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+    background-color: rgb(243, 243, 243);
+   width: fit-content; 
+    border-radius: 15px;
+   padding: 3em 16em;
+}
+
+.descripcion{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    
+}
+
+.descripcion input{
+    width: 13em;
+}
+
+.nivel-riesgo{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    
+}
+
+.nivel-riesgo input{
+    width: 13em;
+}
+
+.eliminar-sospechosa{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    
+
+}
+
+.eliminar-sospechosa input{
+    width: 13em;
+}
+
+.preguntas-misma-linea2{
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.boton-misma-linea2{
+    margin-top: -0.6em;
 }

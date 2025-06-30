@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Caja Fuerte</title>
 </head>
 <body>
 
 <header>
-<h1> henry </h1>
-<nav>
-<a href="./index.html">Home</a>
-<a href="./generar contraseña.html">Generar contraseña</a>
-<a href="./caja fuerte.html">Caja Fuerte</a>
-<a href="./monitoreo de actividad.html">Monitoreo de actividad</a>
-<a href="./gestion de usuarios.html">Gestion de usuarios</a>
+<nav class="navbar">
+ <div class="logo"> <img src="./imagenes/logo.png" alt="logo"></div>
+  <ul class="nav-links">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./generar contraseña.html">Generador de contraseñas</a></li>
+    <li><a href="#inicio">Caja Fuerte</a></li>
+    <li><a href="./monitoreo de actividad.html">Monitoreo de Actividad</a></li>
+    <li><a href="./gestion de usuarios.html">Gestion de Usuarios</a></li>
+  </ul>
 </nav>
 </Header>
 
 <main>
-<h2>Asistente de Seguridad</h2>
-<h3>Caja fuerte</h3>
 
+ <div class="text1-3">  
+<h2>Asistente de Seguridad</h2>
+</div>
+
+<div class="text2-3">
+<h3>Caja fuerte</h3>
+</div>
+
+
+<section class="preguntas2">
+
+ <div class="preguntas-misma-linea"> 
+
+<div class="codigo-secreto">
 <label for="codigo">Codigo secreto</label>
 <input type="text" name="codigo" id="codigo">
+</div>
 
+<div class="numero-intentos">
 <label for="numeros de intentos">Numero de intentos</label>
 <input type="number" name="numeros de intentos" id="numeros de intentos">
-<button>Guardar</button><br>
+</div>
 
+<div class="boton-misma-linea">
+    <button>Guardar</button>
+</div>
+
+</div>  
+
+<div class="validacion">
 <label for="validacion">validar codigo secreto</label>
 <input type="text" name="validacion" id="validacion"> <br>
+</div>
 
-<button>Validar codigo</button> <button>Reset</button>
+<div class="botones-validacion">
+<button>Validar codigo</button> 
+<button>Reset</button>
+</div>
+
+</section>
 
 </main>
 
