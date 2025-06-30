@@ -96,17 +96,23 @@ a:hover{
     margin-top: 2em;
 }
 
+main{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
 .text2-2{
     font-size: 1.3em;
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     margin-top: 2em;
     background-color: #5599da;
-    width: fit-content;
+    width: fit-content;  
     padding: 0.3em;
     border-radius: 15px;
-    margin-left: 41em;
+    /*margin-left: 41em;*/
 }
 
 .preguntas{
@@ -115,10 +121,10 @@ a:hover{
     flex-direction: column;
     margin-top: 7em;
     background-color: rgb(243, 243, 243);
-   width: fit-content;
+   width: fit-content; 
     border-radius: 15px;
    padding: 3em 16em;
-   margin-left: 32.5em;
+   
 }
 
 .pregunta-1{
