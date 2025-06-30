@@ -3,51 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
     <title>generador de contraseñas</title>
 </head>
 <body>
     
 <Header> 
 
-<h1> henry </h1>
-<nav>
-<a href="./index.html">Home</a>
-<a href="./generar contraseña.html">Generar contraseña</a>
-<a href="./caja fuerte.html">Caja Fuerte</a>
-<a href="./monitoreo de actividad.html">Monitoreo de actividad</a>
-<a href="./gestion de usuarios.html">Gestion de usuarios</a>
+<nav class="navbar">
+ <div class="logo"> <img src="./imagenes/logo.png" alt="logo"></div>
+  <ul class="nav-links">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="#inicio">Generador de contraseñas</a></li>
+    <li><a href="./caja fuerte.html">Caja Fuerte</a></li>
+    <li><a href="./monitoreo de actividad.html">Monitoreo de Actividad</a></li>
+    <li><a href="./gestion de usuarios.html">Gestion de Usuarios</a></li>
+  </ul>
 </nav>
+
 </Header>
 
 <Main>
+<div class="text1-2">
 <h2>Asistente de Seguridad</h2>
-<h3>Generador de contraseñas para usuarios</h3>
+</div>
 
+<div class="text2-2">
+<h3>Generador de contraseñas para usuarios</h3>
+</div>
+
+<section class="preguntas">
+
+<div class="pregunta-1">
 <label for="caracteres">Cantidad de caracteres deseados</label>
 <input type="number" name="caracteres" id="caracteres"> <br>
+</div>
 
+<div class="pregunta-2">
 <label for="caracteres-especiales">Incluir caracteres especiales?</label>
 <select name="caracteres-especiales" id="caracteres-especiales">
 <option value="" selected disabled hidden>Selecciona una opcion</option>
 <option value="si">Si</option>
 <option value="no">No</option>
 </select><br>
+</div>
 
+<div class="pregunta-3">
 <label for="caracteres numericos">Desea incluir caracteres numericos?</label>
 <select name="caracteres-numericos" id="caracteres-numericos">
 <option value="" selected disabled hidden>Selecciona una opcion</option>
 <option value="si">Si</option>
 <option value="no">No</option>
 </select><br>
+</div>
 
+<div class="pregunta-4">
 <label for="caracteres mayusculas">Desea incluir caracteres en mayusculas?</label>
 <select name="caracteres-mayusculas" id="caracteres-mayusculas">
 <option value="" selected disabled hidden>Selecciona una opcion</option>
 <option value="si">Si</option>
 <option value="no">No</option>
 </select><br><br>
+</div>
 
 <button>Generar contraseña</button>
+
+</section>
 </Main>
 
 

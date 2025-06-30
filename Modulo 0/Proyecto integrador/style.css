@@ -1,14 +1,17 @@
+
+
 .navbar{
     background-color: #5599da;
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 0.5em ;
     align-items: center;
+    
 }
 
 .logo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.3em;
+     
+    
 }
 
 .nav-links{
@@ -73,13 +76,97 @@
     font-family: sans-serif;
     margin-left: 5em;
     margin-top: 1.4em;
+    max-width: 19em;
 }
 
 a:hover{
-    background-color: #62b3ff;
+
+ background-color: #62b3ff;
     color: white;
-    
+}
+   
+/* SEGUNDA PAGINA: GENERADOR DE CONTRASEÑAS */
+
+.text1-2{
+    font-size: 3.1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.text2-2{
+    font-size: 1.3em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    background-color: #5599da;
+    width: fit-content;
+    padding: 0.3em;
+    border-radius: 15px;
+    margin-left: 41em;
+}
+
+.preguntas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+    background-color: rgb(243, 243, 243);
+   width: fit-content;
+    border-radius: 15px;
+   padding: 3em 16em;
+   margin-left: 32.5em;
+}
+
+.pregunta-1{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.pregunta-2{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 1.3em;
+}
+
+.pregunta-3{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 1.3em;
+}
+
+.pregunta-4{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 1.3em;
+    margin-bottom: 1.5em;
+}
+
+input{
+    width: 6em;
+    border-radius: 15px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+select{
+     width: 12em;
+    border-radius: 15px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 
 
 
+
+button{
+    width: fit-content;
+    padding: 0.7em;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
