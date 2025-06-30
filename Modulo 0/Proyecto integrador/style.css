@@ -120,7 +120,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 7em;
+    margin-top: 4em;
     background-color: rgb(243, 243, 243);
    width: fit-content; 
     border-radius: 15px;
@@ -206,7 +206,7 @@ button{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 7em;
+    margin-top: 4em;
     background-color: rgb(243, 243, 243);
    width: fit-content; 
     border-radius: 15px;
@@ -282,7 +282,7 @@ button{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 7em;
+    margin-top: 4em;
     background-color: rgb(243, 243, 243);
    width: fit-content; 
     border-radius: 15px;
@@ -328,4 +328,171 @@ button{
 
 .boton-misma-linea2{
     margin-top: -0.6em;
+}
+
+
+.filtro-riesgo{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 2em;
+    
+}
+
+.filtro-riesgo input{
+    width: 13em;
+}
+
+.preguntas-misma-linea3{
+    display: flex;
+    gap: 1.5em;
+}
+
+.boton-misma-linea3{
+    margin-top: 1.7em;
+}
+
+.preguntas-misma-linea4{
+    display: flex;
+    gap: 1.5em;
+}
+
+.reporte-actividades{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+
+.reporte-actividades input{
+    width: 13em;
+}
+
+.boton-misma-linea4{
+    margin-top: 1.7em;
+}
+
+/* QUINTA PAGINA: GESTION DE USUARIO */
+
+
+.text1-5{
+    font-size: 3.1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.text2-5{
+    font-size: 1.3em;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center; 
+    margin-top: 2em;
+    background-color: #5599da;
+    width: fit-content;  
+    padding: 0.3em;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+.preguntas4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+    background-color: rgb(243, 243, 243);
+   width: fit-content; 
+    border-radius: 15px;
+   padding: 3em 16em;
+}
+
+.ver-perfiles{
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.ver-perfiles input{
+    width: 13em;
+}
+
+.preguntas4-misma-linea1{
+    display: flex;
+    gap: 1.5em;
+}
+
+.preguntas4-misma-linea1 button{
+    margin-top: -0.6em; 
+    width: 6em;
+}
+
+.perfiles{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    font-family: sans-serif;
+}
+
+.perfiles button{
+    width: 6em;
+}
+
+.text3-5{
+    font-size: 1.2em;
+}
+
+.administradores{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    font-family: sans-serif;
+}
+
+.administradores button{
+    width: 6em;
+}
+
+.text4-5{
+    font-size: 1.2em;
+}
+
+.text5-5{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.usuario{
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+
+.usuario input{
+    width: 13em;
+}
+
+.codigo-acceso{
+    font-family: sans-serif;
+    margin-top: 1.3em;
+}
+
+.codigo-acceso input{
+    width: 13em;
+}
+
+.acceso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acceso button{
+    margin-top: 1.2em;
+    width: 15em;
 }
