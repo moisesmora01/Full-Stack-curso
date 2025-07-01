@@ -9,9 +9,9 @@
     
 }
 
-.logo{
-     
-    
+.logo img{
+    width: 220px;
+    margin-left: 2em;
 }
 
 .nav-links{
@@ -21,7 +21,7 @@
 
 .nav-links a{
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: roboto;
     font-weight: bold;
     color: black;
     padding: 9px;
